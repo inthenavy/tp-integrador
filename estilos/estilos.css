@@ -1,0 +1,74 @@
+.imgbanner{
+    filter: brightness(50%);
+    background-size: cover;
+}
+
+.container-oradores{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+.btn-enviar:hover{
+    background: rgb(7, 148, 77);
+    border-color: none;
+}
+
+.pie-de-pagina{
+    background-image: linear-gradient(to right, #004d7a, #008793);
+    height: 5rem;
+}
+
+@media screen and (max-width:992px) {
+    
+    .container-oradores .row .col{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+    
+    .container-form{
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .honolulu{
+        justify-content: center;
+        text-align: center;
+    }
+
+    .honolulu .btn{
+        width: 50%;
+        margin: 0 auto;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+
+    .container-oradores .row .col{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+    
+    .container-form{
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+}
+
+@media screen and (max-width:576px) {
+
+    .container-oradores .row .col{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .container-form{
+        margin-left: 2rem;
+        margin-right: 2rem;
+        align-self: auto;
+    }
+}
